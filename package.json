@@ -1,0 +1,27 @@
+{
+  "name": "one-zed-theme",
+  "displayName": "One Themes (Zed)",
+  "publisher": "local",
+  "description": "Light and dark VS Code themes ported from Zed's built-in One themes.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.138.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "One Light (Zed)",
+        "uiTheme": "vs",
+        "path": "./themes/one-light-zed-color-theme.json"
+      },
+      {
+        "label": "One Dark (Zed)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/one-dark-zed-color-theme.json"
+      }
+    ]
+  }
+}
